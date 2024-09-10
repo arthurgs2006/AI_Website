@@ -25,7 +25,7 @@
         <div class="card ">
             <div class="card-body rounded login-card-body">
                 <p class="login-box-msg">Come explore the AI world!</p>
-                <form action="/" method="post">
+                <form action="/AIwebsite/pages/dashboard/main.php" method="post">
                     <?php inputGroup("email", "E-mail", "fas fa-envelope") ?>
                     <?php inputGroup("password", "Password", "fas fa-lock") ?>
                     <div class="row">

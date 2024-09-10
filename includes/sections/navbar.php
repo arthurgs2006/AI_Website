@@ -1,5 +1,6 @@
 <?php
-include './includes/components/navbarItem.php';
+include $_SERVER['DOCUMENT_ROOT'] . '/AIwebsite/includes/components/navbarItem.php';
+
 $nav_items = [
     [
         'title' => 'Home',

@@ -13,7 +13,7 @@
 <body>
     <div class="wrapper w-100 bg-gradient-blue-dark d-flex flex-column gap-5"
         style="font-family: 'SF Pro Display';">
-        <?php include './includes/components/navbar.php'; ?>
+        <?php include './includes/sections/navbar.php'; ?>
         <?php include './includes/components/carousel.php'; ?>
         <?php include './includes/sections/cards.php'; ?>
         <?php include './includes/sections/gridLayout.php'; ?>
