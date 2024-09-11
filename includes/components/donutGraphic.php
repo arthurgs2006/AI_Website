@@ -2,18 +2,20 @@
     <div class="card-header">
         <h3 class="card-title">
             <i class="fas fa-chart-pie mr-1"></i>
-            LLM Distributions
+            <b>
+                LLM Distributions
+            </b>
         </h3>
     </div>
-    <div class="card-body">
+    <div class="card-body ">
         <div class="tab-content p-0">
             <div class="chart tab-pane active" id="bar-chart"
                 style="position: relative; height: 300px;">
-                <canvas id="donut-chart-canvas" width="300" height="300"></canvas>
+                <canvas id="donut-chart-canvas" width="540" height="300"></canvas>
             </div>
         </div>
     </div>
-    
+
 </div>
 
 <script>
@@ -25,7 +27,7 @@
                 labels: ['GPT-3', 'GPT-4', 'BERT', 'T5', 'XLNet'],
                 datasets: [{
                     label: 'Usage',
-                    data: [30, 40, 15, 10, 5], // Example data, adjust as needed
+                    data: [30, 40, 15, 10, 5],
                     backgroundColor: [
                         'rgba(255, 99, 132, 0.2)',
                         'rgba(54, 162, 235, 0.2)',

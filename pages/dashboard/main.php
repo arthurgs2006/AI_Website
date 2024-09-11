@@ -15,11 +15,11 @@
     <div class="wrapper bg-gradient-blue-dark d-flex flex-column"
         style="font-family: 'SF Pro Display'; gap: 3vh;">
         <?php include $_SERVER['DOCUMENT_ROOT'] . '/AIwebsite/includes/sections/navbarDashboard.php'; ?>
-        <div class="container-fluid d-flex flex-column" style="gap: 3vh;">
+        <div class="container d-flex flex-column" style="gap: 3vh;">
             <?php
             include $_SERVER['DOCUMENT_ROOT'] . '/AIwebsite/includes/sections/smallcards.php';
-            include $_SERVER['DOCUMENT_ROOT'] . '/AIwebsite/includes/sections/graphicSection.php';
             ?>
+            <?php include $_SERVER['DOCUMENT_ROOT'] . '/AIwebsite/includes/sections/graphicSection.php'; ?>
         </div>
     </div>
     <div class="bg-dark">
