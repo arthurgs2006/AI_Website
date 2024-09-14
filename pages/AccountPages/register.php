@@ -4,12 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>AdminLTE 3 | Log in</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
-    <link rel="stylesheet" href="../../adminlte/plugins/fontawesome-free/css/all.min.css">
-    <link rel="stylesheet" href="../../adminlte/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
-    <link rel="stylesheet" href="../../adminlte/dist/css/adminlte.min.css">
-    <link rel="stylesheet" href="../../style/style.css">
+    <title>Register</title>
 </head>
 <body class=" login-page  bg-gradient-blue-dark">
     <div class="login-box d-flex gap-3 flex-column">
@@ -51,8 +46,6 @@
 
         </div>
     </div>
-    <script src="../adminlte/plugins/jquery/jquery.min.js"></script>
-    <script src="../adminlte/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="../adminlte/dist/js/adminlte.min.js"></script>
+    <?php include $_SERVER['DOCUMENT_ROOT']. '/AIwebsite/includes/components/linkedScripts.php'?>
 </body>
 </html>

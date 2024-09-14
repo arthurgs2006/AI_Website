@@ -21,9 +21,6 @@
         <?php include './includes/sections/footer.php'; ?>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
-    <script src='./adminlte/dist/js/adminlte.min.js'></script>
-    <script src='./adminlte/plugins/bootstrap/adminlte.min.js'></script>
-    <script src="./adminlte/plugins/jquery/jquery.min.js"></script>
+    <?php include $_SERVER['DOCUMENT_ROOT']. '/AIwebsite/includes/components/linkedScripts.php'?>
 </body>
 </html>

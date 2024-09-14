@@ -1,4 +1,4 @@
-<footer class="bg-dark-blue text-white p-4 pt-4" id="contact">
+<footer class="bg-dark text-white p-4 pt-4" id="contact">
     <div class="container">
         <div class="row">
             <div class="col-md-4">
