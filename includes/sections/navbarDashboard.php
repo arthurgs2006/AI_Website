@@ -34,7 +34,7 @@ $nav_items = [
         </ul>
 
         <li class="nav-item">
-            <?php renderNavItens($item, true) ?>
+            <?php renderNavItens($item, 1) ?>
         </li>
     </ul>
 </nav>
