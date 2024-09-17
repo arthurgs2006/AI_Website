@@ -17,7 +17,6 @@
     </div>
 
 </div>
-
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         var ctx = document.getElementById('donut-chart-canvas').getContext('2d');
