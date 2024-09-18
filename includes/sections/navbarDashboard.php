@@ -13,6 +13,10 @@ $nav_items = [
     [
         'title' => 'Doubts',
         'href' => '/AIwebsite/pages/dashboard/Doubts.php'
+    ],
+    [
+        'title' => 'Contact Us',
+        'href' => '/AIwebsite/pages/dashboard/contact.php'
     ]
 ]
 ?>

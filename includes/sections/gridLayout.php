@@ -1,5 +1,9 @@
 <?php include './includes/components/infoCard.php';
-renderInfoCard();
+renderInfoCard(
+    "The future is Now!",
+    "Come and Taste It",
+    "bg-gradient-blue-dark text-light"
+);
 ?>
 <div class="d-flex container-fluid p-5" id="useAI">
     <div class="col d-flex flex-column" style="gap: 5vh !important;">

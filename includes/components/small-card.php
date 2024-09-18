@@ -10,7 +10,8 @@
         <div class="icon">
             <i class="ion <?php echo $icon ?>"></i>
         </div>
-        <a href="#" class="small-box-footer mb-0">
+        <a href="/AIwebsite/pages/ChatGPT/ai-chatgpt.php" 
+        class="small-box-footer mb-0">
             Use <?php echo $title ?>
             <i class="bi bi-arrow-up-right-circle-fill"></i>>
         </a>
